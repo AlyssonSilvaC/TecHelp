@@ -1,0 +1,68 @@
+
+body{
+
+    background-image: linear-gradient(45deg, rgb(84, 84, 84),rgb(255, 255, 255));
+
+
+}
+
+.centralizar{
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 50%;
+    margin-right: 80%;
+    border: solid rgb(44, 43, 44);
+    border-radius: 10px;
+    background-image: linear-gradient(45deg, rgb(21, 21, 21),rgb(255, 255, 255));
+}
+h3 {
+    text-align:center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.caixa{
+    display: table-row;
+    
+}
+
+.col1{
+    display:table-cell;
+    padding: 6px;
+    width: 60%;
+}
+
+.col2{
+    display: table-cell;
+    padding: 6px;
+}
+.dados {
+    display:absolute;
+    margin-left: 1.5%;
+    width:100%;
+}
+
+input{
+    margin: 2px;
+    padding: 7px;
+    border-radius: 20px;
+    outline: none;
+    border:none;
+
+}
+
+select{
+    padding: 7px;
+    border-radius: 20px;
+}
+
+button{
+    padding: 7px;
+    border-radius: 10px;
+    border: none;
+    width: 40%;
+    color: aliceblue;
+    background-color:black;
+}
+
+button:hover{
+    background-color: rgb(25, 25, 25);
+}
